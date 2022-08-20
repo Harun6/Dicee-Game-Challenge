@@ -11,11 +11,11 @@
 
 
     if(randomNumber1 > randomNumber2){
-        document.getElementById("title").textContent = "Player 1 Win";
+        document.getElementById("title").textContent = "🚩 Player 1 Wins!";
     }
 
     else if(randomNumber2 > randomNumber1){
-        document.getElementById("title").textContent = "Player 2 Win";
+        document.getElementById("title").textContent = "Player 2 Wins! 🚩";
     }
 
     else{
